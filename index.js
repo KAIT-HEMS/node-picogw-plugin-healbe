@@ -21,6 +21,12 @@ let access_id ;
 let pluginInterface ;
 let log = console.log ;
 
+
+module.exports = {
+    init: init,
+    onCall: onProcCall,
+};
+
 function genurl(reqid , args){
 	let urlargs = '' ;
 	args.request = reqid ;
@@ -61,7 +67,7 @@ function get(reqid,args){
 	});
 }
 
-exports.init = function(pi){
+function init(pi){
 	pluginInterface = pi ;
 	log = pi.log ;
 
