@@ -1,0 +1,24 @@
+{
+  "name": "picogw-plugin-healbe",
+  "version": "0.0.1",
+  "description": "Healbe plugin of picogw",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAIT-HEMS/node-picogw-plugin-healbe.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KAIT-HEMS/node-picogw-plugin-healbe/issues"
+  },
+  "homepage": "https://github.com/KAIT-HEMS/node-picogw-plugin-healbe#readme",
+  "picogw": {
+    "role": [
+      "server"
+    ]
+  }
+}
