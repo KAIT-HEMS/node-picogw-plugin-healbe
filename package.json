@@ -1,11 +1,12 @@
 {
   "name": "picogw-plugin-healbe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Healbe plugin of picogw",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postinstall": "cat LICENSE LICENSE-NOTICE"
   },
   "repository": {
     "type": "git",
