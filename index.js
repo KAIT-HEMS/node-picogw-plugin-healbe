@@ -123,10 +123,10 @@ function onProcCall(method, path, args) {
         user_info: {reqid: REQ_USER_INFO},
     };
 
-    if (args && args.option === 'true') {
+    if (args && args.info === 'true') {
         for (let k in re) {
             if (k == 'user_info') continue;
-            re[k].option = {
+            re[k]._info = {
                 doc: {
                     long: 'Specify from,from_t,to_t,limit,sensor_id,utc_offset,days_count,items_array', // eslint-disable-line max-len
                 },
